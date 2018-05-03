@@ -20,7 +20,7 @@
   "scripts": {
     "compile": "babel -d lib/ src/ && cp src/image-slider.css lib/",
     "prepublish": "npm run compile",
-    "preinstall": "npm run compile"
+    "preinstall": "npm install && npm run compile"
   },
   "repository": {
     "type": "git",
