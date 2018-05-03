@@ -19,7 +19,8 @@
   "license": "MIT",
   "scripts": {
     "compile": "babel -d lib/ src/ && cp src/image-slider.css lib/",
-    "prepublish": "npm run compile"
+    "prepublish": "npm run compile",
+    "preinstall": "npm run compile"
   },
   "repository": {
     "type": "git",
